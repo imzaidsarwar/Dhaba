@@ -1,0 +1,120 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+}
+/* CSS of Navbar Begin */
+.navbar
+{
+    width: 100vw;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+nav
+{
+    width: 100%;
+}
+#navList
+{
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+}
+#navItem
+{
+    display: flex;
+    gap: 40px;
+}
+#logo
+{
+    font-size: 2.8rem;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+/* CSS of Navbar End */
+/* CSS of Footer Begin */
+footer
+{
+    width: 100%;
+}
+.footer
+{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footer p
+{
+    font-size: 1.2rem;
+}
+/* CSS of Footer End */
+/* CSS of Main Section Begin*/
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+}
+.foodItem
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foodImage
+{
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+}
+.foodImage img
+{
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+}
+.foodImage:hover
+{
+    transform: scale(1.1);
+}
+.recipeBox{
+    font-size: 1.1rem;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+    /* padding-left: 100px; */
+}
+.leftBox h2{
+    font-size: 1.5rem;
+}
